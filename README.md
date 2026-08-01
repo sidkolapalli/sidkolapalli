@@ -8,6 +8,14 @@
 
 </div>
 
+## Competence map
+
+<div align="center">
+
+<img src="./assets/competence-map.svg" width="92%" alt="Animated Venn diagram showing automotive systems, AI and agents, and software engineering intersecting as engineering intelligence"/>
+
+</div>
+
 ## Engineering focus
 
 <table>
