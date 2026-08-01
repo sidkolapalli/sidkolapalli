@@ -1,96 +1,111 @@
 <div align="center">
 
-<img src="./assets/automotive-ai-header.svg" width="100%" alt="Automotive systems and AI engineering"/>
+<sub>ENGINEERING FIELD NOTES · @sidkolapalli</sub>
+
+# Engineering systems you can trust.
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=400&size=16&duration=3200&pause=1000&color=8B949E&center=true&vCenter=true&repeat=true&width=700&height=36&lines=control.+evidence.+repeatability.;simulation.+systems.+intelligence.)](https://git.io/typing-svg)
+
+</div>
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=760&height=48&lines=Exploring+simulation%2C+MBSE+and+ADAS;Building+safer+agentic+engineering+workflows;Turning+complex+systems+into+useful+tools)](https://git.io/typing-svg)
-
-</div>
-
-## Competence map
-
-<div align="center">
-
-<img src="./assets/competence-map.svg" width="92%" alt="Animated Venn diagram showing automotive systems, AI and agents, and software engineering intersecting as engineering intelligence"/>
-
-</div>
-
-## Engineering focus
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="57%" valign="middle">
 
-### Automotive intelligence
+### A practical engineering focus
 
-Practical AI-assisted workflows for complex engineering environments—with an emphasis on control, evidence, and human review.
+Automotive systems, software engineering, and AI tooling—brought together with an emphasis on traceability, useful evidence, and human review.
 
-</td>
-<td width="50%" valign="top">
-
-### Simulation and validation
-
-Autonomous-driving systems, test environments, and the data loops that turn simulation results into engineering decisions.
+This profile is intentionally light on claims. Public work and open-source contributions will provide the proof.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="43%" align="center" valign="middle">
 
-### Model-based engineering
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1942_Nash_Ambassador_X-ray.jpg/960px-1942_Nash_Ambassador_X-ray.jpg" width="390" alt="1942 Nash Ambassador 600 X-ray technical drawing"/>
 
-Connecting systems models, architecture methods, and modern developer experiences without losing engineering rigor.
-
-</td>
-<td width="50%" valign="top">
-
-### Agentic tooling
-
-Carefully scoped interfaces that let AI systems operate technical tools while remaining observable and auditable.
+<sub>FIG. 01 — 1942 Nash Ambassador 600 X-ray drawing. Public domain in the United States. [Source](https://commons.wikimedia.org/wiki/File:1942_Nash_Ambassador_X-ray.jpg).</sub>
 
 </td>
 </tr>
 </table>
 
-## Working layers
+---
 
-<div align="center">
+<table>
+<tr>
+<td width="33%" valign="top">
 
-![Automotive](https://img.shields.io/badge/AUTOMOTIVE-SIMULATION-0D2238?style=for-the-badge&labelColor=08111F&color=136BA8)
-![MBSE](https://img.shields.io/badge/MBSE-SYSTEMS_MODELS-0D2238?style=for-the-badge&labelColor=08111F&color=167D78)
-![Agents](https://img.shields.io/badge/AI-CONSTRAINED_AGENTS-0D2238?style=for-the-badge&labelColor=08111F&color=136BA8)
-![Data](https://img.shields.io/badge/DATA-DECISION_SUPPORT-0D2238?style=for-the-badge&labelColor=08111F&color=167D78)
+<sub>01</sub>
+
+### Automotive systems
+
+Simulation, model-based engineering, ADAS workflows, and the interfaces between system intent and observable behavior.
+
+</td>
+<td width="33%" valign="top">
+
+<sub>02</sub>
+
+### Software engineering
+
+Clear architectures, testable code, practical APIs, and data workflows built for iteration and maintenance.
+
+</td>
+<td width="33%" valign="top">
+
+<sub>03</sub>
+
+### AI tooling
+
+Carefully scoped AI assistance that supports engineering work without obscuring control, provenance, or review.
+
+</td>
+</tr>
+</table>
+
+---
+
+### Working principles
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+**Safety by design**
+
+Design for failure. Make boundaries explicit.
+
+</td>
+<td width="25%" valign="top">
+
+**Evidence over opinion**
+
+Instrument the workflow. Measure clearly.
+
+</td>
+<td width="25%" valign="top">
+
+**Simplicity first**
+
+Prefer transparent systems over ornamental complexity.
+
+</td>
+<td width="25%" valign="top">
+
+**Repeatability**
+
+Favor reproducible results and defensible decisions.
+
+</td>
+</tr>
+</table>
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=58A6FF)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=58A6FF)
-![Rust](https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=F59E0B)
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=2DD4BF)
-![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=2DD4BF)
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FACC15)
-![GitHub Actions](https://img.shields.io/badge/Actions-111827?style=flat-square&logo=github-actions&logoColor=58A6FF)
-
-</div>
-
-## Principles
-
-> **Useful over flashy.** Build tools that reduce real engineering friction.
-
-> **Evidence over magic.** Make automated work inspectable, testable, and reversible.
-
-> **Systems over demos.** Design for the interfaces, constraints, and failure modes around the model.
-
-## Open-source trajectory
-
-Contributing focused fixes, tests, documentation, and technical feedback to engineering tools worth improving.
-
 <div align="center">
 
-<br>
-
-<sub>SIMULATION × SYSTEMS × INTELLIGENCE</sub>
+<sub>Currently building public evidence through focused fixes, tests, documentation, and technical feedback.</sub>
 
 </div>
