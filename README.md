@@ -1,37 +1,31 @@
-<div align="center">
-
 <sub>ENGINEERING FIELD NOTES · @sidkolapalli</sub>
 
 # Engineering systems you can trust.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=400&size=16&duration=3200&pause=1000&color=8B949E&center=true&vCenter=true&repeat=true&width=700&height=36&lines=control.+evidence.+repeatability.;simulation.+systems.+intelligence.)](https://git.io/typing-svg)
-
-</div>
-
-<br>
+Automotive systems, software engineering, and AI tooling—brought together with an emphasis on traceability, useful evidence, and human review.
 
 <table>
 <tr>
-<td width="57%" valign="middle">
+<td width="58%" valign="middle">
 
 ### A practical engineering focus
 
-Automotive systems, software engineering, and AI tooling—brought together with an emphasis on traceability, useful evidence, and human review.
+Working across simulation, model-based engineering, software systems, and carefully scoped AI assistance.
 
-This profile is intentionally light on claims. Public work and open-source contributions will provide the proof.
+Public work and open-source contributions are the record.
 
 </td>
-<td width="43%" align="center" valign="middle">
+<td width="42%" align="center" valign="middle">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1942_Nash_Ambassador_X-ray.jpg/960px-1942_Nash_Ambassador_X-ray.jpg" width="390" alt="1942 Nash Ambassador 600 X-ray technical drawing"/>
 
-<sub>FIG. 01 — 1942 Nash Ambassador 600 X-ray drawing. Public domain in the United States. [Source](https://commons.wikimedia.org/wiki/File:1942_Nash_Ambassador_X-ray.jpg).</sub>
+<sub>FIG. 01 — 1942 Nash Ambassador 600 X-ray drawing. [Public-domain source](https://commons.wikimedia.org/wiki/File:1942_Nash_Ambassador_X-ray.jpg).</sub>
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
 <table>
 <tr>
@@ -41,7 +35,7 @@ This profile is intentionally light on claims. Public work and open-source contr
 
 ### Automotive systems
 
-Simulation, model-based engineering, ADAS workflows, and the interfaces between system intent and observable behavior.
+Simulation, model-based engineering, ADAS workflows, and the relationship between system intent and observable behavior.
 
 </td>
 <td width="33%" valign="top">
@@ -50,7 +44,7 @@ Simulation, model-based engineering, ADAS workflows, and the interfaces between 
 
 ### Software engineering
 
-Clear architectures, testable code, practical APIs, and data workflows built for iteration and maintenance.
+Clear architectures, testable code, practical APIs, and maintainable data workflows.
 
 </td>
 <td width="33%" valign="top">
@@ -59,13 +53,13 @@ Clear architectures, testable code, practical APIs, and data workflows built for
 
 ### AI tooling
 
-Carefully scoped AI assistance that supports engineering work without obscuring control, provenance, or review.
+Scoped assistance that supports engineering work without obscuring control, provenance, or review.
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
 ### Working principles
 
@@ -75,7 +69,7 @@ Carefully scoped AI assistance that supports engineering work without obscuring 
 
 **Safety by design**
 
-Design for failure. Make boundaries explicit.
+Make boundaries explicit. Design for failure.
 
 </td>
 <td width="25%" valign="top">
@@ -104,8 +98,4 @@ Favor reproducible results and defensible decisions.
 
 <br>
 
-<div align="center">
-
-<sub>Currently building public evidence through focused fixes, tests, documentation, and technical feedback.</sub>
-
-</div>
+<sub>Focused fixes · tests · documentation · technical feedback</sub>
