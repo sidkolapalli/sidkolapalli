@@ -1,75 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Automotive systems and AI engineering</title>
-  <desc id="desc">A dark technical illustration with a vehicle, road, system nodes, and signal paths.</desc>
+  <desc id="desc">A technical automotive interface using the MIT-licensed Bootstrap Icons car-front-fill asset.</desc>
+  <!-- Vehicle glyph: Bootstrap Icons car-front-fill, Copyright (c) 2019-2026 The Bootstrap Authors, MIT License -->
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
-      <stop offset=".52" stop-color="#0b1b31"/>
+      <stop offset=".55" stop-color="#0b1b31"/>
       <stop offset="1" stop-color="#071723"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#58a6ff"/>
       <stop offset="1" stop-color="#2dd4bf"/>
     </linearGradient>
-    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#1c3046"/>
-      <stop offset="1" stop-color="#0a121e"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#7aa2c7" stroke-opacity=".08"/>
+      <path d="M32 0H0V32" fill="none" stroke="#8fb4d4" stroke-opacity=".075"/>
     </pattern>
   </defs>
 
   <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
   <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-  <path d="M0 288C225 235 388 233 602 277s380 47 598-16v99H0z" fill="url(#road)"/>
-  <path d="M0 307C240 258 402 258 600 298s384 43 600-14" fill="none" stroke="#d7e5f2" stroke-opacity=".22" stroke-width="2" stroke-dasharray="22 22"/>
+  <path d="M0 315C210 270 395 269 600 303s395 41 600-10v67H0z" fill="#09131f"/>
+  <path d="M0 326C224 287 399 286 600 317s393 37 600-10" fill="none" stroke="#9db8cd" stroke-opacity=".20" stroke-width="2" stroke-dasharray="22 22"/>
 
   <g font-family="Segoe UI,Inter,Arial,sans-serif">
-    <text x="70" y="88" fill="#dcecff" font-size="15" font-weight="600" letter-spacing="4">ENGINEERING SYSTEMS</text>
-    <text x="68" y="143" fill="#ffffff" font-size="42" font-weight="700">AUTOMOTIVE × AI</text>
-    <text x="70" y="180" fill="#9eb7ce" font-size="18">Simulation · model-based engineering · safe agentic workflows</text>
+    <text x="70" y="82" fill="#a7c4df" font-size="14" font-weight="600" letter-spacing="4">ENGINEERING SYSTEMS</text>
+    <text x="68" y="140" fill="#ffffff" font-size="43" font-weight="700">AUTOMOTIVE × AI</text>
+    <text x="70" y="177" fill="#9eb7ce" font-size="18">Simulation · model-based engineering · safe agentic workflows</text>
+    <text x="70" y="239" fill="#58a6ff" font-size="13" font-weight="600" letter-spacing="2">OBSERVABLE</text>
+    <text x="187" y="239" fill="#516d86" font-size="13">/</text>
+    <text x="209" y="239" fill="#2dd4bf" font-size="13" font-weight="600" letter-spacing="2">AUDITABLE</text>
+    <text x="314" y="239" fill="#516d86" font-size="13">/</text>
+    <text x="336" y="239" fill="#b5c8d8" font-size="13" font-weight="600" letter-spacing="2">USEFUL</text>
   </g>
 
-  <g fill="none" stroke="url(#signal)" stroke-width="2">
-    <path d="M735 86H861V130H990" stroke-dasharray="6 6"/>
-    <path d="M790 214V168H914V130"/>
-    <path d="M700 249H835V205H1035"/>
+  <g transform="translate(825 174)">
+    <circle r="116" fill="#091728" stroke="#204669" stroke-width="1.5"/>
+    <circle r="94" fill="none" stroke="#58a6ff" stroke-opacity=".30" stroke-width="1.5" stroke-dasharray="4 8"/>
+    <circle r="70" fill="#0c2035" stroke="#2dd4bf" stroke-opacity=".35"/>
+    <path d="M-142 0h48M94 0h48M0-142v48M0 94v48" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-127-56A139 139 0 0 1-56-127M56-127a139 139 0 0 1 71 71M127 56a139 139 0 0 1-71 71M-56 127a139 139 0 0 1-71-71" fill="none" stroke="#58a6ff" stroke-opacity=".52" stroke-width="3"/>
+    <g transform="translate(-56 -56) scale(7)">
+      <path fill="url(#accent)" d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+    </g>
   </g>
 
-  <g filter="url(#glow)">
-    <circle cx="735" cy="86" r="5" fill="#58a6ff"/>
-    <circle cx="990" cy="130" r="5" fill="#2dd4bf"/>
-    <circle cx="790" cy="214" r="5" fill="#58a6ff"/>
-    <circle cx="700" cy="249" r="5" fill="#2dd4bf"/>
-    <circle cx="1035" cy="205" r="5" fill="#58a6ff"/>
+  <g fill="#2dd4bf" filter="url(#glow)">
+    <circle cx="825" cy="32" r="3.5"/><circle cx="967" cy="174" r="3.5"/><circle cx="825" cy="316" r="3.5"/><circle cx="683" cy="174" r="3.5"/>
   </g>
 
-  <g font-family="Segoe UI,Inter,Arial,sans-serif" font-size="12" font-weight="600">
-    <g transform="translate(682 53)"><rect width="106" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="53" y="20" text-anchor="middle" fill="#b9dcff">SIMULATION</text></g>
-    <g transform="translate(949 99)"><rect width="87" height="31" rx="15.5" fill="#0f3335" stroke="#2dd4bf" stroke-opacity=".55"/><text x="43.5" y="20" text-anchor="middle" fill="#b9fff5">AGENTS</text></g>
-    <g transform="translate(738 215)"><rect width="104" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="52" y="20" text-anchor="middle" fill="#b9dcff">TEST DATA</text></g>
-    <g transform="translate(987 175)"><rect width="96" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="48" y="20" text-anchor="middle" fill="#b9dcff">MODELS</text></g>
+  <g font-family="Segoe UI,Inter,Arial,sans-serif" font-size="11" font-weight="600">
+    <g transform="translate(1014 75)"><rect width="112" height="29" rx="14.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".5"/><text x="56" y="19" text-anchor="middle" fill="#b9dcff">SIMULATION</text></g>
+    <g transform="translate(1017 159)"><rect width="92" height="29" rx="14.5" fill="#0f3335" stroke="#2dd4bf" stroke-opacity=".5"/><text x="46" y="19" text-anchor="middle" fill="#b9fff5">AGENTS</text></g>
+    <g transform="translate(1000 244)"><rect width="108" height="29" rx="14.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".5"/><text x="54" y="19" text-anchor="middle" fill="#b9dcff">TEST DATA</text></g>
   </g>
-
-  <g transform="translate(418 219)">
-    <path d="M39 47L58 17c4-7 11-11 19-11h97c8 0 15 4 20 11l24 30 24 7c8 2 14 10 14 18v14H16V70c0-9 6-17 15-20z" fill="#102b47" stroke="#58a6ff" stroke-width="2"/>
-    <path d="M70 19h95c5 0 9 2 12 6l16 22H54l14-23c1-3 2-4 2-5z" fill="#163d5e"/>
-    <path d="M116 19v28" stroke="#58a6ff" stroke-opacity=".45"/>
-    <circle cx="65" cy="86" r="17" fill="#07111f" stroke="#2dd4bf" stroke-width="3"/>
-    <circle cx="207" cy="86" r="17" fill="#07111f" stroke="#2dd4bf" stroke-width="3"/>
-    <path d="M20 63h24M223 63h27" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
-  </g>
-
-  <g font-family="Segoe UI,Inter,Arial,sans-serif" font-size="12" fill="#7794ae">
-    <text x="70" y="330">SYSTEMS THINKING</text>
-    <text x="216" y="330">/</text>
-    <text x="238" y="330">AUDITABLE AUTOMATION</text>
-    <text x="421" y="330">/</text>
-    <text x="443" y="330">USEFUL ENGINEERING TOOLS</text>
-  </g>
+  <path d="M944 112h69M967 174h49M943 236h57" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="5 5"/>
 </svg>
