@@ -2,6 +2,8 @@
 
 # Engineering systems you can trust.
 
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=400&size=15&duration=3000&pause=900&color=8B949E&vCenter=true&repeat=true&width=620&height=28&lines=control.+evidence.+repeatability.;simulation.+systems.+intelligence." height="28" alt="Animated engineering focus"/>
+
 Automotive systems, software engineering, and AI tooling—brought together with an emphasis on traceability, useful evidence, and human review.
 
 <table>
@@ -58,6 +60,21 @@ Scoped assistance that supports engineering work without obscuring control, prov
 </td>
 </tr>
 </table>
+
+<br>
+
+### Toolbox
+
+![Python](https://img.shields.io/badge/Python-171B21?style=flat-square&logo=python&logoColor=F5C542)
+![TypeScript](https://img.shields.io/badge/TypeScript-171B21?style=flat-square&logo=typescript&logoColor=4C9AFF)
+![Rust](https://img.shields.io/badge/Rust-171B21?style=flat-square&logo=rust&logoColor=E6E6E6)
+![Java](https://img.shields.io/badge/Java-171B21?style=flat-square&logo=openjdk&logoColor=F5C542)
+![React](https://img.shields.io/badge/React-171B21?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-171B21?style=flat-square&logo=fastapi&logoColor=2DD4BF)
+![Linux](https://img.shields.io/badge/Linux-171B21?style=flat-square&logo=linux&logoColor=F5C542)
+![GitHub Actions](https://img.shields.io/badge/Actions-171B21?style=flat-square&logo=github-actions&logoColor=4C9AFF)
+
+<sub>Simulation · MBSE · ADAS · MCP · agentic workflows · data systems</sub>
 
 <br>
 
