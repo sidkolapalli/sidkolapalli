@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+<title id="title">Animated competence map</title>
+<desc id="desc">A Venn diagram connecting automotive systems, AI and agents, and software engineering.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#07111f"/><stop offset="1" stop-color="#0b1828"/>
+  </linearGradient>
+  <radialGradient id="blue"><stop stop-color="#58a6ff" stop-opacity=".30"/><stop offset="1" stop-color="#58a6ff" stop-opacity=".06"/></radialGradient>
+  <radialGradient id="teal"><stop stop-color="#2dd4bf" stop-opacity=".30"/><stop offset="1" stop-color="#2dd4bf" stop-opacity=".06"/></radialGradient>
+  <radialGradient id="violet"><stop stop-color="#a78bfa" stop-opacity=".28"/><stop offset="1" stop-color="#a78bfa" stop-opacity=".05"/></radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94b4d0" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1000" height="500" rx="22" fill="url(#bg)"/>
+<rect width="1000" height="500" rx="22" fill="url(#grid)"/>
+
+<g font-family="Segoe UI,Inter,Arial,sans-serif">
+  <text x="50" y="54" fill="#9eb7ce" font-size="13" font-weight="600" letter-spacing="3">COMPETENCE MAP</text>
+  <text x="50" y="85" fill="#ffffff" font-size="22" font-weight="650">Where disciplines become engineering capability</text>
+</g>
+
+<g>
+  <circle cx="400" cy="245" r="152" fill="url(#blue)" stroke="#58a6ff" stroke-width="2" stroke-dasharray="8 8">
+    <animateTransform attributeName="transform" type="translate" values="0 0;5 -3;0 0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".45;.95;.45" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="245" r="152" fill="url(#teal)" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="8 8">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-5 -3;0 0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".95;.45;.95" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="347" r="152" fill="url(#violet)" stroke="#a78bfa" stroke-width="2" stroke-dasharray="8 8">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".55;.95;.55" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<g font-family="Segoe UI,Inter,Arial,sans-serif" text-anchor="middle">
+  <text x="333" y="188" fill="#b9dcff" font-size="18" font-weight="700">AUTOMOTIVE</text>
+  <text x="333" y="211" fill="#83a4c1" font-size="13">systems · simulation · ADAS</text>
+
+  <text x="667" y="188" fill="#b9fff5" font-size="18" font-weight="700">AI + AGENTS</text>
+  <text x="667" y="211" fill="#83aaa7" font-size="13">MCP · LLMs · safe execution</text>
+
+  <text x="500" y="425" fill="#ddd2ff" font-size="18" font-weight="700">SOFTWARE ENGINEERING</text>
+  <text x="500" y="448" fill="#a79bc7" font-size="13">APIs · data · interfaces · delivery</text>
+</g>
+
+<g font-family="Segoe UI,Inter,Arial,sans-serif" text-anchor="middle">
+  <circle cx="500" cy="295" r="64" fill="#0b2030" stroke="#dcecff" stroke-opacity=".35"/>
+  <circle cx="500" cy="295" r="51" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-dasharray="3 7">
+    <animateTransform attributeName="transform" type="rotate" from="0 500 295" to="360 500 295" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <text x="500" y="285" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="1">ENGINEERING</text>
+  <text x="500" y="304" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="1">INTELLIGENCE</text>
+  <text x="500" y="327" fill="#8fb0c9" font-size="11">useful · auditable · integrated</text>
+</g>
+
+<g fill="#ffffff" filter="url(#glow)">
+  <circle cx="500" cy="231" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="555" cy="326" r="3"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="445" cy="326" r="3"><animate attributeName="opacity" values=".4;1;.4" dur="3.1s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
