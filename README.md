@@ -1,13 +1,10 @@
 <div align="center">
 
-# Siddharth K
+# @sidkolapalli
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=2F81F7&center=true&vCenter=true&width=760&lines=Automotive+systems+%C3%97+AI+engineering;Exploring+simulation%2C+MBSE+and+ADAS;Building+safer+agentic+engineering+workflows)](https://git.io/typing-svg)
 
-[![GitHub](https://img.shields.io/badge/GitHub-sidkolapalli-181717?style=for-the-badge&logo=github)](https://github.com/sidkolapalli)
-[![Email](https://img.shields.io/badge/Email-Let's_connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akon2997@gmail.com)
-
-<sub>Interested in automotive systems, simulation, model-based engineering, data platforms, and safe AI tooling.</sub>
+<sub>Automotive systems · simulation · model-based engineering · safe AI tooling</sub>
 
 </div>
 
@@ -16,9 +13,9 @@
 ### Areas of interest
 
 ```text
-Automotive AI   → practical AI-assisted engineering workflows
-Simulation      → autonomous-driving systems and test environments
-MBSE            → model-based systems engineering enhanced by AI
+Automotive AI    → practical AI-assisted engineering workflows
+Simulation       → autonomous-driving systems and test environments
+MBSE             → model-based systems engineering enhanced by AI
 Engineering data → analysis, visualization, and decision support
 ```
 
@@ -51,14 +48,5 @@ Engineering data → analysis, visualization, and decision support
 
 ### Open-source direction
 
-I am growing my public work through focused contributions to tools I use and care about. My goal is to contribute useful fixes, tests, documentation, and engineering feedback—not activity for activity's sake.
+Focused contributions to useful engineering tools through fixes, tests, documentation, and technical feedback.
 
----
-
-<div align="center">
-
-**Interested in automotive AI, simulation, or engineering tooling?**
-
-[Open a conversation](mailto:akon2997@gmail.com) · [Explore my GitHub](https://github.com/sidkolapalli)
-
-</div>
