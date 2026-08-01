@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive systems and AI engineering</title>
+  <desc id="desc">A dark technical illustration with a vehicle, road, system nodes, and signal paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset=".52" stop-color="#0b1b31"/>
+      <stop offset="1" stop-color="#071723"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1c3046"/>
+      <stop offset="1" stop-color="#0a121e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7aa2c7" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <path d="M0 288C225 235 388 233 602 277s380 47 598-16v99H0z" fill="url(#road)"/>
+  <path d="M0 307C240 258 402 258 600 298s384 43 600-14" fill="none" stroke="#d7e5f2" stroke-opacity=".22" stroke-width="2" stroke-dasharray="22 22"/>
+
+  <g font-family="Segoe UI,Inter,Arial,sans-serif">
+    <text x="70" y="88" fill="#dcecff" font-size="15" font-weight="600" letter-spacing="4">ENGINEERING SYSTEMS</text>
+    <text x="68" y="143" fill="#ffffff" font-size="42" font-weight="700">AUTOMOTIVE × AI</text>
+    <text x="70" y="180" fill="#9eb7ce" font-size="18">Simulation · model-based engineering · safe agentic workflows</text>
+  </g>
+
+  <g fill="none" stroke="url(#signal)" stroke-width="2">
+    <path d="M735 86H861V130H990" stroke-dasharray="6 6"/>
+    <path d="M790 214V168H914V130"/>
+    <path d="M700 249H835V205H1035"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="735" cy="86" r="5" fill="#58a6ff"/>
+    <circle cx="990" cy="130" r="5" fill="#2dd4bf"/>
+    <circle cx="790" cy="214" r="5" fill="#58a6ff"/>
+    <circle cx="700" cy="249" r="5" fill="#2dd4bf"/>
+    <circle cx="1035" cy="205" r="5" fill="#58a6ff"/>
+  </g>
+
+  <g font-family="Segoe UI,Inter,Arial,sans-serif" font-size="12" font-weight="600">
+    <g transform="translate(682 53)"><rect width="106" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="53" y="20" text-anchor="middle" fill="#b9dcff">SIMULATION</text></g>
+    <g transform="translate(949 99)"><rect width="87" height="31" rx="15.5" fill="#0f3335" stroke="#2dd4bf" stroke-opacity=".55"/><text x="43.5" y="20" text-anchor="middle" fill="#b9fff5">AGENTS</text></g>
+    <g transform="translate(738 215)"><rect width="104" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="52" y="20" text-anchor="middle" fill="#b9dcff">TEST DATA</text></g>
+    <g transform="translate(987 175)"><rect width="96" height="31" rx="15.5" fill="#102b47" stroke="#58a6ff" stroke-opacity=".55"/><text x="48" y="20" text-anchor="middle" fill="#b9dcff">MODELS</text></g>
+  </g>
+
+  <g transform="translate(418 219)">
+    <path d="M39 47L58 17c4-7 11-11 19-11h97c8 0 15 4 20 11l24 30 24 7c8 2 14 10 14 18v14H16V70c0-9 6-17 15-20z" fill="#102b47" stroke="#58a6ff" stroke-width="2"/>
+    <path d="M70 19h95c5 0 9 2 12 6l16 22H54l14-23c1-3 2-4 2-5z" fill="#163d5e"/>
+    <path d="M116 19v28" stroke="#58a6ff" stroke-opacity=".45"/>
+    <circle cx="65" cy="86" r="17" fill="#07111f" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="207" cy="86" r="17" fill="#07111f" stroke="#2dd4bf" stroke-width="3"/>
+    <path d="M20 63h24M223 63h27" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="Segoe UI,Inter,Arial,sans-serif" font-size="12" fill="#7794ae">
+    <text x="70" y="330">SYSTEMS THINKING</text>
+    <text x="216" y="330">/</text>
+    <text x="238" y="330">AUDITABLE AUTOMATION</text>
+    <text x="421" y="330">/</text>
+    <text x="443" y="330">USEFUL ENGINEERING TOOLS</text>
+  </g>
+</svg>
