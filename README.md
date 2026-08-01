@@ -1,104 +1,88 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D1117,45:0969DA,100:00C2A8&section=header&text=%40sidkolapalli&fontSize=38&fontColor=FFFFFF&fontAlignY=36&desc=AUTOMOTIVE%20SYSTEMS%20%C3%97%20AI%20ENGINEERING&descSize=13&descAlignY=57&animation=fadeIn" alt="@sidkolapalli — Automotive Systems × AI Engineering"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=850&color=2F81F7&center=true&vCenter=true&repeat=true&width=760&height=55&lines=Exploring+simulation%2C+MBSE+and+ADAS;Building+safer+agentic+engineering+workflows;Turning+complex+systems+into+useful+tools)](https://git.io/typing-svg)
-
-</div>
+<img src="./assets/automotive-ai-header.svg" width="100%" alt="Automotive systems and AI engineering"/>
 
 <br>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=760&height=48&lines=Exploring+simulation%2C+MBSE+and+ADAS;Building+safer+agentic+engineering+workflows;Turning+complex+systems+into+useful+tools)](https://git.io/typing-svg)
+
+</div>
+
+## Engineering focus
+
 <table>
 <tr>
-<td width="25%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### 🚘
-**Automotive AI**
+### Automotive intelligence
 
-Practical intelligence for engineering workflows
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 🛣️
-**Simulation**
-
-Autonomous-driving systems and test environments
+Practical AI-assisted workflows for complex engineering environments—with an emphasis on control, evidence, and human review.
 
 </td>
-<td width="25%" align="center" valign="top">
+<td width="50%" valign="top">
 
-### 🧩
-**MBSE**
+### Simulation and validation
 
-Model-based engineering enhanced by AI
+Autonomous-driving systems, test environments, and the data loops that turn simulation results into engineering decisions.
 
 </td>
-<td width="25%" align="center" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 📊
-**Engineering Data**
+### Model-based engineering
 
-Analysis, visualization, and decision support
+Connecting systems models, architecture methods, and modern developer experiences without losing engineering rigor.
+
+</td>
+<td width="50%" valign="top">
+
+### Agentic tooling
+
+Carefully scoped interfaces that let AI systems operate technical tools while remaining observable and auditable.
 
 </td>
 </tr>
 </table>
 
+## Working layers
+
 <div align="center">
 
-## Technology radar
+![Automotive](https://img.shields.io/badge/AUTOMOTIVE-SIMULATION-0D2238?style=for-the-badge&labelColor=08111F&color=136BA8)
+![MBSE](https://img.shields.io/badge/MBSE-SYSTEMS_MODELS-0D2238?style=for-the-badge&labelColor=08111F&color=167D78)
+![Agents](https://img.shields.io/badge/AI-CONSTRAINED_AGENTS-0D2238?style=for-the-badge&labelColor=08111F&color=136BA8)
+![Data](https://img.shields.io/badge/DATA-DECISION_SUPPORT-0D2238?style=for-the-badge&labelColor=08111F&color=167D78)
 
-### Core
+<br>
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=F89820)
-
-### Application & data
-
-![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688)
-![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=3B9EDB)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=github-actions&logoColor=2088FF)
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=58A6FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=58A6FF)
+![Rust](https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=F59E0B)
+![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=2DD4BF)
+![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=2DD4BF)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FACC15)
+![GitHub Actions](https://img.shields.io/badge/Actions-111827?style=flat-square&logo=github-actions&logoColor=58A6FF)
 
 </div>
 
-<br>
+## Principles
 
-## Current coordinates
+> **Useful over flashy.** Build tools that reduce real engineering friction.
 
-```text
-┌─ SYSTEMS
-│  ├─ automotive simulation
-│  ├─ model-based engineering
-│  └─ ADAS workflows
-│
-└─ INTELLIGENCE
-   ├─ Model Context Protocol
-   ├─ agentic workflows
-   ├─ LLM integrations
-   └─ constrained execution
-```
+> **Evidence over magic.** Make automated work inspectable, testable, and reversible.
 
-## Exploring now
+> **Systems over demos.** Design for the interfaces, constraints, and failure modes around the model.
 
-- 🔐 Safe, auditable interfaces between AI agents and engineering software
-- 🧠 AI-enhanced model-based systems engineering
-- 🏎️ Autonomous-driving simulation and test-data analysis
-- 🛠️ Developer experiences for complex engineering workflows
+## Open-source trajectory
 
-<br>
+Contributing focused fixes, tests, documentation, and technical feedback to engineering tools worth improving.
 
 <div align="center">
 
-### Open-source direction
+<br>
 
-Focused contributions through useful fixes, tests, documentation, and technical feedback.
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:00C2A8,55:0969DA,100:0D1117&section=footer" alt="Decorative gradient footer"/>
+<sub>SIMULATION × SYSTEMS × INTELLIGENCE</sub>
 
 </div>
