@@ -1,118 +1,95 @@
-<sub>ENGINEERING FIELD NOTES · @sidkolapalli</sub>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-phone-night.svg">
+  <source media="(max-width: 600px)" srcset="assets/banner-phone-day.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.svg">
+  <img src="assets/banner-day.svg" width="100%" alt="Siddharth Kolapalli · Automotive systems · applied AI. Hi, I’m Sid. Every article on sidkolapalli.com started as a problem I ran into on a project.">
+</picture>
 
-# Engineering systems you can trust.
+**[Writing](https://sidkolapalli.com/)** · [Series](https://sidkolapalli.com/#/series) · [Work](https://sidkolapalli.com/#/work) · [About](https://sidkolapalli.com/#/about) · [RSS feed](https://sidkolapalli.com/feed.xml) · [LinkedIn](https://www.linkedin.com/in/sidkolapalli)
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=400&size=15&duration=3000&pause=900&color=8B949E&vCenter=true&repeat=true&width=620&height=28&lines=control.+evidence.+repeatability.;simulation.+systems.+intelligence." height="28" alt="Animated engineering focus"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
 
-Automotive systems, software engineering, and AI tooling—brought together with an emphasis on traceability, useful evidence, and human review.
+### About me
 
-<table>
-<tr>
-<td width="58%" valign="middle">
+I’m a systems engineer in Michigan. I work where automotive systems engineering meets applied AI: simulation, model-based systems engineering, ADAS and powertrain.
 
-### A practical engineering focus
+A lot of what I build is about letting language models do real engineering work, with the boundaries kept outside the model. [carla-agentic-toolkit](https://github.com/sidkolapalli/carla-agentic-toolkit) is one example: a sandboxed MCP server that lets AI agents drive the CARLA simulator, then puts its settings back afterwards.
 
-Working across simulation, model-based engineering, software systems, and carefully scoped AI assistance.
-
-Public work and open-source contributions are the record.
-
-</td>
-<td width="42%" align="center" valign="middle">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1942_Nash_Ambassador_X-ray.jpg/960px-1942_Nash_Ambassador_X-ray.jpg" width="390" alt="1942 Nash Ambassador 600 X-ray technical drawing"/>
-
-<sub>FIG. 01 — 1942 Nash Ambassador 600 X-ray drawing. [Public-domain source](https://commons.wikimedia.org/wiki/File:1942_Nash_Ambassador_X-ray.jpg).</sub>
-
-</td>
-</tr>
-</table>
-
-<br>
+Every article on [sidkolapalli.com](https://sidkolapalli.com/) started as a problem I ran into on a project. I write them in plain words, with the evidence and its limits.
 
 <table>
-<tr>
-<td width="33%" valign="top">
-
-<sub>01</sub>
-
-### Automotive systems
-
-Simulation, model-based engineering, ADAS workflows, and the relationship between system intent and observable behavior.
-
-</td>
-<td width="33%" valign="top">
-
-<sub>02</sub>
-
-### Software engineering
-
-Clear architectures, testable code, practical APIs, and maintainable data workflows.
-
-</td>
-<td width="33%" valign="top">
-
-<sub>03</sub>
-
-### AI tooling
-
-Scoped assistance that supports engineering work without obscuring control, provenance, or review.
-
-</td>
-</tr>
+  <tr><th align="left">Role</th><td>Systems engineer</td></tr>
+  <tr><th align="left">Based in</th><td>Michigan</td></tr>
+  <tr><th align="left">Focus</th><td>Automotive systems · software engineering · AI tooling</td></tr>
+  <tr><th align="left">Topics</th><td>Simulation · MBSE · ADAS · Powertrain · AI</td></tr>
+  <tr><th align="left">Building</th><td><a href="https://github.com/sidkolapalli/carla-agentic-toolkit">carla-agentic-toolkit</a> · <a href="https://github.com/sidkolapalli/TracePad">TracePad</a></td></tr>
 </table>
 
-<br>
+<sub>Principles: safety by design · evidence over opinion · simplicity first · repeatability</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
+
+<!-- DRIVE-LOG:START -->
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/drive-log-phone-night.svg">
+  <source media="(max-width: 600px)" srcset="assets/drive-log-phone-day.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/drive-log-night.svg">
+  <img src="assets/drive-log-day.svg" width="100%" alt="Drive log: waiting for the first daily run.">
+</picture>
+<!-- DRIVE-LOG:END -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
+
+### Writing
+
+<!-- WRITING:START -->
+- <sub>Agent Systems</sub> · [Why You Can’t Just Let an AI Run Your Driving Tests](https://sidkolapalli.com/#/post/carla-problem)
+- <sub>Agent Systems</sub> · [I Gave an AI the Driving Simulator, Not the Keys to My Computer](https://sidkolapalli.com/#/post/carla)
+- <sub>ADAS</sub> · [The AI Picks the Move. My Code Had Already Checked Every Option.](https://sidkolapalli.com/#/post/jev)
+- <sub>ADAS</sub> · [Six Trials, One Fallback: What My AI Merge Experiment Actually Showed](https://sidkolapalli.com/#/post/jev-results)
+- <sub>Simulation</sub> · [Why the Simulated Traffic Kept Vanishing Between AI Calls](https://sidkolapalli.com/#/post/traffic)
+<!-- WRITING:END -->
+
+[All articles on sidkolapalli.com →](https://sidkolapalli.com/)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
+
+### Selected work
+
+**[carla-agentic-toolkit](https://github.com/sidkolapalli/carla-agentic-toolkit)** <sub>· Python</sub><br>
+Sandboxed MCP server that lets AI agents drive the CARLA simulator safely, with journaled cleanup and settings restoration.
+
+**[TracePad](https://github.com/sidkolapalli/TracePad)** <sub>· TypeScript</sub><br>
+Local Python learning and interview practice workspace with visual reasoning, timed mocks, and optional MCP coaching.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
 
 ### Toolbox
 
-![Python](https://img.shields.io/badge/Python-171B21?style=flat-square&logo=python&logoColor=F5C542)
-![TypeScript](https://img.shields.io/badge/TypeScript-171B21?style=flat-square&logo=typescript&logoColor=4C9AFF)
-![Rust](https://img.shields.io/badge/Rust-171B21?style=flat-square&logo=rust&logoColor=E6E6E6)
-![Java](https://img.shields.io/badge/Java-171B21?style=flat-square&logo=openjdk&logoColor=F5C542)
-![React](https://img.shields.io/badge/React-171B21?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-171B21?style=flat-square&logo=fastapi&logoColor=2DD4BF)
-![Linux](https://img.shields.io/badge/Linux-171B21?style=flat-square&logo=linux&logoColor=F5C542)
-![GitHub Actions](https://img.shields.io/badge/Actions-171B21?style=flat-square&logo=github-actions&logoColor=4C9AFF)
+Python · TypeScript · Rust · Java · React · FastAPI · Linux · GitHub Actions
 
 <sub>Simulation · MBSE · ADAS · MCP · agentic workflows · data systems</sub>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-night.svg">
+  <img src="assets/divider-day.svg" width="100%" height="18" alt="">
+</picture>
 
-### Working principles
+**New articles:** follow the [RSS feed](https://sidkolapalli.com/feed.xml) or visit [sidkolapalli.com](https://sidkolapalli.com/).
 
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**Safety by design**
-
-Make boundaries explicit. Design for failure.
-
-</td>
-<td width="25%" valign="top">
-
-**Evidence over opinion**
-
-Instrument the workflow. Measure clearly.
-
-</td>
-<td width="25%" valign="top">
-
-**Simplicity first**
-
-Prefer transparent systems over ornamental complexity.
-
-</td>
-<td width="25%" valign="top">
-
-**Repeatability**
-
-Favor reproducible results and defensible decisions.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<sub>Focused fixes · tests · documentation · technical feedback</sub>
+<sub>On open source I send focused fixes, tests, documentation and technical feedback.</sub>
