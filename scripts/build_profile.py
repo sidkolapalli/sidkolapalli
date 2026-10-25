@@ -191,7 +191,8 @@ def subset_woff2(path, text):
     options.name_IDs = ["*"]
     options.name_languages = ["*"]
     options.notdef_outline = True
-    font = TTFont(str(path))
+    # Keep the source timestamp so unchanged images stay byte-identical between runs.
+    font = TTFont(str(path), recalcTimestamp=False)
     subsetter = subset.Subsetter(options)
     subsetter.populate(text=text)
     subsetter.subset(font)

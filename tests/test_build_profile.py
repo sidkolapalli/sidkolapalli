@@ -4,6 +4,7 @@ import re
 import sys
 import unittest
 from datetime import date, timedelta
+from unittest import mock
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -161,6 +162,15 @@ class SubsetTest(unittest.TestCase):
         data = bp.subset_woff2(bp.FONT_DIR / bp.FONTS["serif"][1], "Hi")
         self.assertTrue(data.startswith(b"wOF2"))
         self.assertLess(len(data), 15_000)
+
+    def test_subset_does_not_depend_on_the_clock(self):
+        # A daily run must not rewrite unchanged images just because time passed.
+        path = bp.FONT_DIR / bp.FONTS["mono"][1]
+        with mock.patch("fontTools.ttLib.tables._h_e_a_d.timestampNow", return_value=0):
+            first = bp.subset_woff2.__wrapped__(path, "Clock")
+        with mock.patch("fontTools.ttLib.tables._h_e_a_d.timestampNow", return_value=10**9):
+            second = bp.subset_woff2.__wrapped__(path, "Clock")
+        self.assertEqual(first, second)
 
 
 class RenderTest(unittest.TestCase):
