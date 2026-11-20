@@ -40,7 +40,7 @@ Every article on [sidkolapalli.com](https://sidkolapalli.com/) started as a prob
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/drive-log-phone-night.svg">
   <source media="(max-width: 600px)" srcset="assets/drive-log-phone-day.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/drive-log-night.svg">
-  <img src="assets/drive-log-day.svg" width="100%" alt="Drive log: 2,031 contributions in the last 12 months. Peak week 285, average 38.3 a week, 14 quiet weeks. Updated 2026-11-19.">
+  <img src="assets/drive-log-day.svg" width="100%" alt="Drive log: 2,031 contributions in the last 12 months. Peak week 285, average 38.3 a week, 14 quiet weeks. Updated 2026-11-20.">
 </picture>
 <!-- DRIVE-LOG:END -->
 
